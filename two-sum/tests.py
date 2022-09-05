@@ -25,7 +25,6 @@ class TestTwoSum(unittest.TestCase):
         ]
 
         for test_case in test_cases:
-            print(test_case)
             indexes = two_sum(test_case['nums'], test_case['target'])
 
             self.assertListEqual(indexes, test_case['expected_indexes'])
