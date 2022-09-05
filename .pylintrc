@@ -1,0 +1,4 @@
+[MESSAGES CONTROL]
+disable=import-error,
+missing-class-docstring,
+missing-function-docstring
